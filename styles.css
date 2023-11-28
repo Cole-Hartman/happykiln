@@ -412,6 +412,7 @@ html {
     transform: translateY(-50%);
     left: 338px;
     z-index: 1;
+    color: #fff; 
 }
 
 .back-button-about button {
