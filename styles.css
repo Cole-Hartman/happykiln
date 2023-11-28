@@ -15,7 +15,7 @@
     font-size: 1.2rem;
     position: sticky;
     top: 0;
-    z-index: 9;
+    z-index: 100;
 }
 
 .navbar__container {
@@ -431,7 +431,7 @@ html {
 
 @media screen and (max-width: 768px) {
   .back-button-about {
-    /* align-items: center;
+    align-items: center;
     justify-self: center;
     width: 50%;
     margin: 0 auto;
@@ -439,10 +439,8 @@ html {
     top: 130%;
     left: 60%;
     transform: translateX(-50%);
-    font-size: 0.8rem; */
-    padding: 8px 16px; 
-    font-size: 1rem; 
-    top: 34px; 
+    font-size: 0.8rem;
+    z-index: 1;
   }
 }
 
