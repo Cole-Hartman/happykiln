@@ -411,7 +411,7 @@ html {
     top: 87%;
     transform: translateY(-50%);
     left: 338px;
-    z-index: 99;
+    z-index: 1;
 }
 
 .back-button-about button {
@@ -450,7 +450,7 @@ html {
   top: 90%;
   transform: translateY(-50%);
   left: 345px;
-  z-index: 99;
+  z-index: 1;
 }
 
 .back-button button {
