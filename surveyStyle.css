@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1f242d;
+}
+
+.contact h2 {
+    font-size: 40px;
+    color: #ededed;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    width: 600px;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+form .input-box {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px; 
+}
+
+.field .item {
+    width: calc(100% - 36px);
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #ededed;
+    outline: none;
+    border-radius: 6px;
+    margin-top: 10px; 
+    font-size: 16px;
+    color: #ededed;
+    margin: 12px 0;
+}
+
+.field.error .item {
+    border-color: #d93025;
+}
+
+textarea-field .item {
+    resize: vertical; 
+}
+
+.field .item::placeholder {
+    color: rgba(255,255,255,.3);
+}
+
+.field .error-txt {
+    font-size: 14.5px;
+    color: #fe5196;
+    text-align: center;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+.field.error .error-txt {
+    display: block;
+}
+
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form .textarea-field .error-txt {
+    margin-top: -10px;
+}
+
+form button {
+    padding: 12px 32px;
+    background: #fe5196;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: none;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+form button:hover {
+    box-shadow: 0 0 10px #fe5196;
+}
+
+.back-button {
+    text-align: left;
+    margin-top: 20px; 
+}
+  
+
+.back-button button {
+    padding: 10px 20px;
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.back-button button:hover {
+    background-color: #2980b9; 
+}
+
+@media screen and (max-width: 768px) {
+    .back-button {
+      align-items: center;
+      justify-self: center;
+      position: relative;
+      width: 50%;
+      margin: 0 auto;
+      height: 90vh;
+      top: 100%;
+      left: 5%;
+      transform: translateX(-50%);
+      font-size: 0.8rem;
+    }
+  }
