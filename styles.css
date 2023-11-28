@@ -407,14 +407,10 @@ html {
 
 /* Page: About Us, back button */
 .back-button-about {
-/*     position: absolute;
+    position: absolute;
     top: 87%;
     transform: translateY(-50%);
     left: 338px;
-    z-index: 1; */
-    position: absolute;
-    top: 50px;
-    left: 20px;
     z-index: 1;
 }
 
