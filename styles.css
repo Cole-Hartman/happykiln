@@ -436,8 +436,8 @@ html {
     width: 50%;
     margin: 0 auto;
     height: 90vh;
-    top: 110%;
-    left: 62%;
+    top: 130%;
+    left: 60%;
     transform: translateX(-50%);
     font-size: 0.8rem;
   }
