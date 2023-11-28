@@ -416,7 +416,8 @@ html {
 
 .back-button-about button {
     padding: 10px 20px;
-    background-color: #3498db;
+/*     background-color: #3498db; */
+    background-color: #fff
     color: #fff;
     border: none;
     border-radius: 5px;
