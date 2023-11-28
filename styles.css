@@ -410,14 +410,14 @@ html {
     position: absolute;
     top: 100%;
     transform: translateY(-50%);
-    left: 450px;
+    left: 350px;
     z-index: 99;
 }
 
 .back-button-about button {
     padding: 10px 20px;
     background-color: #3498db;
-    color: #3498db;
+    color: #fff;
     border: none;
     border-radius: 5px;
     font-size: 16px;
