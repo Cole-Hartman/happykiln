@@ -406,7 +406,7 @@ html {
 }
 
 /* Page: About Us, back button */
-.back-button {
+.back-button-about {
     position: absolute;
     top: 100%;
     transform: translateY(-50%);
@@ -414,7 +414,7 @@ html {
     z-index: 99;
 }
 
-.back-button button {
+.back-button-about button {
     padding: 10px 20px;
     background-color: #3498db;
     color: #fff;
@@ -425,8 +425,22 @@ html {
     transition: background-color 0.3s;
 }
 
-.back-button button:hover {
+.back-button-about button:hover {
     background-color: #2980b9;
+}
+
+@media screen and (max-width: 768px) {
+  .back-button-about {
+    align-items: center;
+    justify-self: center;
+    width: 50%;
+    margin: 0 auto;
+    height: 90vh;
+    top: 110%;
+    left: 62%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+  }
 }
 
 /* Page: Services, back button */
@@ -460,8 +474,8 @@ html {
     width: 50%;
     margin: 0 auto;
     height: 90vh;
-    top: 78%;
-    left: 64%;
+    top: 90%;
+    left: 62%;
     transform: translateX(-50%);
     font-size: 0.8rem;
   }
@@ -513,7 +527,7 @@ html {
     rgba(0, 0, 0, 0) 0%, 
     rgba(17, 17, 17, 0.6) 100%
   ), 
-  url('images/Pots.jpg');
+  url('/images/Pots.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
@@ -525,7 +539,7 @@ html {
     rgba(0, 0, 0, 0) 0%, 
     rgba(17, 17, 17, 0.6) 100%
   ), 
-  url('images/greypots.jpg');
+  url('/images/greypots.jpg');
   background-position: center;
 }
 
@@ -535,7 +549,7 @@ html {
     rgba(0, 0, 0, 0) 0%, 
     rgba(17, 17, 17, 0.6) 100%
   ), 
-  url('images/Parts.jpg');
+  url('/images/Parts.jpg');
   background-position: center;
 }
 
@@ -669,7 +683,7 @@ html {
   justify-content: center;
 }
 
-.footer__link-wrapper {
+.footer__link--wrapper {
   display: flex;
 }
 
@@ -747,7 +761,11 @@ html {
 
 @media screen and (max-width: 820px) {
   .footer__links {
-    padding-top: 2rem;
+    padding-top: 30rem;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
   }
 
   #footer__logo {
