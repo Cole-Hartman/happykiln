@@ -2,20 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-
 .navbar {
-    background: #131313;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+  background: #131313;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .navbar__container {
@@ -29,9 +28,9 @@
   padding: 0 50px;
 }
 
-#navbar__logo{
+#navbar__logo {
   background-color: #ff8177;
-  background-image: linear-gradient(to top, #FFF5A1 0%, #ffb199 100%);
+  background-image: linear-gradient(to top, #fff5a1 0%, #ffb199 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -89,15 +88,15 @@
   outline: none;
   border-radius: 4px;
   background: #ff8177;
-  color:  #fff;
+  color: #fff;
 }
 
-.button:hover{
+.button:hover {
   background: #437ff4;
   transition: all 0.3 ease;
 }
 
-.navbar__links:hover{
+.navbar__links:hover {
   color: #ff8177;
   transition: all 0.3s ease;
 }
@@ -106,7 +105,7 @@
   .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px; 
+    height: 80px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -160,7 +159,7 @@
     display: table;
   }
 
-  #mobile-menu{
+  #mobile-menu {
     position: absolute;
     top: 20%;
     right: 5%;
@@ -196,7 +195,6 @@
   #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  
 }
 
 /*  Hero Section CSS */
@@ -205,23 +203,23 @@
 }
 
 .main__container {
-display: grid;
-grid-template-columns: 1fr 1fr;
-align-items: center;
-justify-self: center;
-margin: 0 auto;
-height: 90vh;
-background-color: #141414;
-z-index: 1;
-width: 100%;
-max-width: 1300px;
-padding: 0 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #141414;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 50px;
 }
 
 .main__content h1 {
   font-size: 4rem;
   background-color: #ff8177;
-  background-image: linear-gradient(to top, #FFF5A1 0%, #ffb199 100%);
+  background-image: linear-gradient(to top, #fff5a1 0%, #ffb199 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -232,7 +230,7 @@ padding: 0 50px;
 .main__content h2 {
   font-size: 4rem;
   background-color: #ff8177;
-  background-image: linear-gradient(to top, #B721FF 0%, #21D4FD 100%);
+  background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -249,51 +247,45 @@ padding: 0 50px;
 
 /* Page: Services, text */
 .main__content p:nth-child(4) {
-  width: 150%; 
-  font-size: 1.5rem; 
+  width: 150%;
+  font-size: 1.5rem;
   color: #ffb199;
   margin-top: 1rem;
   font-weight: 700;
-  
 }
 
 .main__content p:nth-child(5) {
-  width: 150%; 
-  font-size: 1.5rem; 
+  width: 150%;
+  font-size: 1.5rem;
   color: #ffb199;
   margin-top: 1rem;
   font-weight: 700;
-  
 }
 
 .main__content p:nth-child(6) {
-  width: 150%; 
-  font-size: 1.5rem; 
+  width: 150%;
+  font-size: 1.5rem;
   color: #ffb199;
   margin-top: 1rem;
   font-weight: 700;
-  
 }
 
 .main__content p:nth-child(7) {
-  width: 150%; 
-  font-size: 1.5rem; 
+  width: 150%;
+  font-size: 1.5rem;
   color: #ffb199;
   margin-top: 1rem;
   font-weight: 700;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .main__content p:nth-child(4),
   .main__content p:nth-child(5),
   .main__content p:nth-child(6),
-  .main__content p:nth-child(7)
- {
-    width: 100%; 
-    font-size: 1.2rem; 
-    margin-top: 0.5rem; 
+  .main__content p:nth-child(7) {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -305,7 +297,7 @@ html {
   font-size: 1rem;
   background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
   padding: 14px 32px;
-  border:  none;
+  border: none;
   border-radius: 4px;
   color: #fff;
   margin-top: 2rem;
@@ -324,7 +316,7 @@ html {
 
 .main__btn:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 0;
@@ -383,7 +375,6 @@ html {
   }
 }
 
-
 @media screen and (max-width: 480px) {
   .main__content h1 {
     font-size: 2rem;
@@ -407,27 +398,27 @@ html {
 
 /* Page: About Us, back button */
 .back-button-about {
-    position: absolute;
-    top: 87%;
-    transform: translateY(-50%);
-    left: 338px;
-    z-index: 1;
-    color: #fff; 
+  position: absolute;
+  top: 87%;
+  transform: translateY(-50%);
+  left: 338px;
+  z-index: 1;
+  color: #fff;
 }
 
 .back-button-about button {
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .back-button-about button:hover {
-    background-color: #2980b9;
+  background-color: #2980b9;
 }
 
 @media screen and (max-width: 768px) {
@@ -492,15 +483,15 @@ html {
   height: 100vh;
 }
 
-.services h1  {
+.services h1 {
   background-color: #ff8177;
   background-image: linear-gradient(
-    to right, 
-    #ff8177 0%, 
-    #ff867a 0%, 
-    #ff8c7f 21%, 
-    #f99185 52%, 
-    #cf556c 78%, 
+    to right,
+    #ff8177 0%,
+    #ff867a 0%,
+    #ff8c7f 21%,
+    #f99185 52%,
+    #cf556c 78%,
     #b12a5b 100%
   );
 
@@ -525,11 +516,11 @@ html {
   width: 400px;
   border-radius: 4px;
   background-image: linear-gradient(
-    to bottom, 
-    rgba(0, 0, 0, 0) 0%, 
-    rgba(17, 17, 17, 0.6) 100%
-  ), 
-  url('/images/Pots.jpg');
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("/images/Pots.jpg");
   background-size: cover;
   position: relative;
   color: #fff;
@@ -537,21 +528,21 @@ html {
 
 .services__card:nth-child(2) {
   background-image: linear-gradient(
-    to bottom, 
-    rgba(0, 0, 0, 0) 0%, 
-    rgba(17, 17, 17, 0.6) 100%
-  ), 
-  url('/images/greypots.jpg');
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("/images/greypots.jpg");
   background-position: center;
 }
 
 .services__card:nth-child(3) {
   background-image: linear-gradient(
-    to bottom, 
-    rgba(0, 0, 0, 0) 0%, 
-    rgba(17, 17, 17, 0.6) 100%
-  ), 
-  url('/images/Parts.jpg');
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("/images/about-kiln.webp");
   background-position: center;
 }
 
@@ -572,13 +563,13 @@ html {
 
 @media screen and (max-width: 768px) {
   .main__content__button button {
-    padding: 8px 16px; 
-    font-size: 1rem; 
-    top: 34px; 
+    padding: 8px 16px;
+    font-size: 1rem;
+    top: 34px;
   }
 }
 
-.main__content__button button :hover{
+.main__content__button button :hover {
   background: #437ff4;
   transition: all 0.3 ease;
 }
@@ -588,7 +579,6 @@ html {
   transition: 0.2s ease-in;
   cursor: pointer;
 }
-
 
 .services h2 {
   position: absolute;
@@ -623,7 +613,7 @@ html {
   cursor: pointer;
 }
 
-.services__card button:hover{
+.services__card button:hover {
   background: #437ff4;
   transition: all 0.3 ease;
 }
@@ -635,21 +625,21 @@ html {
 }
 
 @media screen and (max-width: 960px) {
- .services {
-  height: 1600px;
- }
+  .services {
+    height: 1600px;
+  }
 
- .services h1 {
-  font-size: 2rem;
-  margin-top: 12rem;
- }
+  .services h1 {
+    font-size: 2rem;
+    margin-top: 12rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .services {
     height: 1400px;
   }
-  
+
   .services h1 {
     font-size: 1.2rem;
   }
@@ -735,7 +725,7 @@ html {
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto; 
+  margin: 40px auto 0 auto;
 }
 
 .social__icons {
@@ -745,7 +735,7 @@ html {
   width: 80px;
 }
 
-.social__logo  {
+.social__logo {
   color: #fff;
   justify-self: flex-start;
   margin-left: 20px;
@@ -776,7 +766,6 @@ html {
 
   .website__rights {
     margin-bottom: 2rem;
-
   }
 
   .footer__link--wrapper {
