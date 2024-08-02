@@ -3,56 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Survey Form</title>
-    <link rel="stylesheet" href="surveyStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link href="./output.css" rel="stylesheet">
 </head>
 
-<body>
-    <section class="contact">
-        <h2>Appointment / Contact Form</h2>
-
-        <form action="#">
-            <div class="input-box">
-                <div class="input-field field">
-                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
-                    <div class="error-txt">Full Name can't be blank</div>
-                </div>
-            </div>
-            <div class="input-box">
-                <div class="input-field field">
-                    <input type="text" placeholder="Email Address" id="email" class="item" autocomplete="off">
-                    <div class="error-txt email">Email Address can't be blank</div>
-                </div>
-            </div>
-
-            <div class="input-box">
-                <div class="input-field field">
-                    <input type="text" placeholder="Phone Number" id="phone" class="item" autocomplete="off">
-                    <div class="error-txt">Phone Number can't be blank</div>
-                </div>
-            </div>
-            <div class="input-box">
-                <div class="input-field field">
-                    <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off">
-                    <div class="error-txt">Subject can't be blank</div>
-
-                </div>
-            </div>
-
-            <div class="textarea-field field">
-                <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
-                <div class="error-txt">Your Message can't be blank</div>
-            </div>
-
-            <button type="submit">Send Message</button>
-        </form>
-
-        <div class="back-button"><button onclick="window.history.back()">Go Back</button>
+<body class="bg-slate-500 overflow-hidden">
+    <div class="flex flex-col items-center h-screen">
+        <h1 class="text-2xl shadow-lg text-center border border-slate-600 rounded-xl mx-2 mt-3 px-4 py-2 bg-slate-600">
+            Schedule an
+            Appointment</h1>
+        <div
+            class="px-4 py-2 my-2 text-center h-2/4 border border-slate-600 bg-slate-600 shadow-xl rounded-xl gap-2 flex flex-col items-center justify-center md:w-3/4">
+            <h3 class="text-lg md:text-xl font-bold">Give Me a Call</h3>
+            <p class="mb-7 md:text-lg">📞 Phone: 206-341-9080</p>
+            <h3 class="text-lg md:text-xl font-bold">Email Me</h3>
+            <p class="md:text-lg">📩 Gmail: brian@happykiln.com</p>
         </div>
-    </section>
+        <button id="backButton"
+            class="font-bold text-lg md:text-xl px-4 py-2 my-2 text-center border border-slate-600 bg-slate-600 shadow-xl rounded-xl gap-2 flex flex-col items-center justify-center">Back</button>
+        <script>document.getElementById('backButton').addEventListener('click', function () {
+                window.history.back();
+            });
+        </script>
+    </div>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="surveyApp.js"></script>
+
 </body>
+
 </html>
